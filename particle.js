@@ -22,7 +22,7 @@ class Particle{
      push();
      translate(pos.x,pos.y);
      rotate(angle);
-     ellipseMode(CENTER);
+     ellipseMode(RADIUS);
      fill(this.color);
      ellipse(0,0,this.radius,this.radius);
      pop();
