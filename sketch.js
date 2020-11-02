@@ -44,7 +44,7 @@ function draw() {
   ground.display()
 
  if(frameCount%90===0){
-    particles.push(new Particle(random(width/2-10,width/2+10),10,10))
+    particles.push(new Particle(random(width/2-10,width/2+10),10,7))
   }
   
   for(var j=0; j<particles.length;j=j+1){
