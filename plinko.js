@@ -20,7 +20,7 @@ class Plinko{
      push();
      translate(pos.x,pos.y);
      rotate(angle);
-     ellipseMode(CENTER);
+     ellipseMode(RADIUS);
      fill("pink");
      ellipse(0,0,this.radius,this.radius);
      pop();
